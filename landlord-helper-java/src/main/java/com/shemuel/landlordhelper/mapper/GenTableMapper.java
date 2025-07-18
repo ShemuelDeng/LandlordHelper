@@ -26,7 +26,6 @@ public interface GenTableMapper {
     
     void insertGenTableColumn(GenTableColumn column);
 
-    @InterceptorIgnore(tenantLine = "true")
     List<GenTable> selectDbTableList(GenTable genTable);
     
     int insertGenTableBatch(@Param("columns") List<GenTableColumn> columns);

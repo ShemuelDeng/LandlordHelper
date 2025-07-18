@@ -54,7 +54,7 @@ spring:
 
 mybatis-plus:
   mapper-locations: classpath:mapper/**/*.xml  # XML 映射文件路径
-  type-aliases-package: com.shemuel.site.entity  # 实体类包路径
+  type-aliases-package: com.shemuel.c.entity  # 实体类包路径
   configuration:
     map-underscore-to-camel-case: true  # 自动驼峰命名转换
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl  # 打印 SQL 日志（调试用）

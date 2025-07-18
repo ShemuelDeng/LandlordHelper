@@ -9,8 +9,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-@Configuration
-@MapperScan("com.shemuel.landlordhelper.mapper")
+//@Configuration
+//@MapperScan("com.shemuel.landlordhelper.mapper")
 public class MybatisPlusConfig {
 
     @Autowired
